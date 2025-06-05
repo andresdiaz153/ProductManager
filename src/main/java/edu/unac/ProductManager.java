@@ -34,6 +34,7 @@ public class ProductManager {
         return new ArrayList<>(products.values());
     }
 
+    //metodo
     public List<Product> getProductsByPriceRange(double min, double max) {
         List<Product> result = new ArrayList<>();
         for (Product product : products.values()) {
@@ -43,4 +44,7 @@ public class ProductManager {
         }
         return result;
     }
+
+
+
 }
